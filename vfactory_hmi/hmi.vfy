@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<!--Velocio Factory 1.0-->
+<!--www.VelocioNetworks.com-->
+<VelocioNetworks>
+  <elementPageTag sAddress="vFactoryPage" sIndex="" dtAddress="UI16" bWholeArray="False" />
+  <Page Name="Home">
+    <Label height="1" width="4" x="2" y="1" myLableType="Label" sRecipe="" align="left" myColor="purple" sText="State 1" />
+    <MeterGraph height="4" width="4" x="2" y="3" iColor1="5" iColor2="4" iColor3="3" iColor4="2" iColor5="1" iColor6="0">
+      <eKeyMeter sAddress="location1" sIndex="" dtAddress="I32" bWholeArray="False" />
+      <eMin sAddress="0" sIndex="" dtAddress="I32" bWholeArray="False" />
+      <e1 sAddress="800" sIndex="" dtAddress="I32" bWholeArray="False" />
+    </MeterGraph>
+    <Label height="1" width="5" x="2" y="2" myLableType="Label" sRecipe="" align="left" myColor="purple" sText="Dual Lifter" />
+    <Progress height="1" width="4" x="2" y="8">
+      <eKeyProgress sAddress="location1" sIndex="" dtAddress="I32" bWholeArray="False" />
+      <eMax sAddress="800" sIndex="" dtAddress="I32" bWholeArray="False" />
+      <eMin sAddress="0" sIndex="" dtAddress="I32" bWholeArray="False" />
+    </Progress>
+    <Label height="1" width="4" x="2" y="11" myLableType="Label" sRecipe="" align="left" myColor="yellow" sText="State 4" />
+    <Progress height="1" width="4" x="2" y="18">
+      <eKeyProgress sAddress="location3" sIndex="" dtAddress="I32" bWholeArray="False" />
+      <eMax sAddress="-800" sIndex="" dtAddress="I32" bWholeArray="False" />
+      <eMin sAddress="0" sIndex="" dtAddress="I32" bWholeArray="False" />
+    </Progress>
+    <Label height="1" width="4" x="20" y="1" myLableType="Label" sRecipe="" align="left" myColor="blue" sText="State 3" />
+    <Label height="1" width="7" x="20" y="2" myLableType="Label" sRecipe="" align="left" myColor="blue" sText="Rotating Platter 180°" />
+    <MeterGraph height="4" width="4" x="20" y="3" iColor1="4" iColor2="4" iColor3="4" iColor4="2" iColor5="1" iColor6="0">
+      <eKeyMeter sAddress="location2" sIndex="" dtAddress="I32" bWholeArray="False" />
+      <eMin sAddress="-75" sIndex="" dtAddress="I32" bWholeArray="False" />
+      <e1 sAddress="-900" sIndex="" dtAddress="I32" bWholeArray="False" />
+    </MeterGraph>
+    <Progress height="1" width="4" x="20" y="8">
+      <eKeyProgress sAddress="location2" sIndex="" dtAddress="I32" bWholeArray="False" />
+      <eMax sAddress="-900" sIndex="" dtAddress="I32" bWholeArray="False" />
+      <eMin sAddress="-75" sIndex="" dtAddress="I32" bWholeArray="False" />
+    </Progress>
+    <Label height="1" width="4" x="11" y="1" myLableType="Label" sRecipe="" align="left" myColor="green" sText="State 2" />
+    <Label height="1" width="7" x="11" y="2" myLableType="Label" sRecipe="" align="left" myColor="green" sText="Rotating Platter 10°" />
+    <MeterGraph height="4" width="4" x="11" y="3" iColor1="3" iColor2="4" iColor3="3" iColor4="2" iColor5="1" iColor6="0">
+      <eKeyMeter sAddress="location2" sIndex="" dtAddress="I32" bWholeArray="False" />
+      <eMin sAddress="0" sIndex="" dtAddress="I32" bWholeArray="False" />
+      <e1 sAddress="-75" sIndex="" dtAddress="I32" bWholeArray="False" />
+    </MeterGraph>
+    <Progress height="1" width="4" x="11" y="8">
+      <eKeyProgress sAddress="location2" sIndex="" dtAddress="I32" bWholeArray="False" />
+      <eMax sAddress="-75" sIndex="" dtAddress="I32" bWholeArray="False" />
+      <eMin sAddress="0" sIndex="" dtAddress="I32" bWholeArray="False" />
+    </Progress>
+    <Label height="1" width="7" x="2" y="12" myLableType="Label" sRecipe="" align="left" myColor="yellow" sText="Ramp Tipper Drop" />
+    <MeterGraph height="4" width="4" x="2" y="13" iColor1="2" iColor2="2" iColor3="2" iColor4="2" iColor5="2" iColor6="2">
+      <eKeyMeter sAddress="location3" sIndex="" dtAddress="I32" bWholeArray="False" />
+      <eMin sAddress="0" sIndex="" dtAddress="I32" bWholeArray="False" />
+      <e1 sAddress="-800" sIndex="" dtAddress="I32" bWholeArray="False" />
+    </MeterGraph>
+    <Label height="1" width="6" x="11" y="11" myLableType="Label" sRecipe="" align="left" myColor="red" sText="State 0" />
+    <Label height="1" width="6" x="11" y="12" myLableType="Label" sRecipe="" align="left" myColor="red" sText="Resetting System" />
+    <BarGraph height="4" width="4" x="11" y="14" iColor1="0" iColor2="0" iColor3="0" iColor4="0" iColor5="0" iColor6="0" fMin="0" fMax="12000">
+      <eKey1 sAddress="startuptimer" sIndex="" dtAddress="I32" bWholeArray="False" />
+    </BarGraph>
+  </Page>
+</VelocioNetworks>
